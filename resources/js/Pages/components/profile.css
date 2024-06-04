@@ -1,0 +1,52 @@
+.profile {
+    width: 70%;
+    border-bottom: 1px solid #e7e7e7;
+    /* padding: 2.7rem 0; */
+    font-size: 1rem;
+    margin: 5rem 0;
+}
+.profileLeft {
+    display: flex;
+    justify-content: start;
+}
+.profileLeft img {
+    margin-right: 5rem;
+    margin-left: 5rem;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+.userInfo {
+    display: flex;
+    flex-direction: row;
+    height: fit-content;
+    align-items: center;
+    margin: 1rem 0;
+}
+.profileRight p {
+    margin-right: 2rem;
+}
+.profileLink {
+    margin-right: 1rem;
+    padding: 0.4rem 1.2rem;
+    background-color: #efefef;
+    border-radius: 5px;
+    font-weight: 600;
+}
+.randomBtn {
+    color: rgb(0, 149, 246);
+}
+
+.followerInfo {
+    display: flex;
+    margin: 1.6rem 0;
+    gap: 2rem;
+}
+.followerInfo a {
+    background-color: transparent;
+    font-weight: 600;
+    padding: 0;
+}
+.profileRight hr {
+    margin: 2rem 0;
+}

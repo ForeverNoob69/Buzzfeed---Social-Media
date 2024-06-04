@@ -1,0 +1,45 @@
+.rightbar {
+    position: fixed;
+    display: flex;
+    height: 100vh;
+    width: 20%;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: start;
+    place-items: center;
+    right: 0;
+    border-left: 1px solid rgb(235, 233, 233);
+    padding: 1.5rem;
+    z-index: 1000;
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+}
+
+.rightbar h2 {
+    color: #737373;
+}
+
+.profiles {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 1rem;
+    margin-top: 5rem;
+}
+.profiles h2 {
+    margin: 0 auto;
+}
+.suggestedUsers {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.suggestedUsers img {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+}
+.suggestedUsers h1 {
+    font-size: 0.9rem;
+    font-weight: 600;
+}

@@ -1,0 +1,88 @@
+.newfeed {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    place-items: center;
+    background-color: #fff;
+    width: 80%;
+}
+.postSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    place-items: center;
+    border-bottom: 1px solid rgb(228, 228, 228);
+    background-color: white;
+    width: 50%;
+    /* -webkit-box-shadow: 0px 0px 8px -3px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 0px 0px 8px -3px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 0px 8px -3px rgba(0, 0, 0, 0.5); */
+}
+.thePost {
+    display: flex;
+    flex-direction: column;
+
+    width: 50%;
+    place-items: center;
+    border-bottom: 1px solid rgb(228, 228, 228);
+    background-color: #fff;
+    /* -webkit-box-shadow: 0px 0px 8px -3px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 0px 0px 8px -3px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 0px 8px -3px rgba(0, 0, 0, 0.5); */
+}
+.postBottom {
+    overflow: hidden;
+    /* border-radius: 10px; */
+}
+.postBottom img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.postTop {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 1.5rem;
+    place-items: start;
+    padding: 1rem;
+    width: 100%;
+}
+
+.postTop img {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+}
+.postTop b {
+    font-size: 1rem;
+}
+.caption {
+    width: 100%;
+    height: 100%;
+    padding: 0.5rem 0;
+    font-weight: 100;
+}
+.caption b {
+    font-weight: 900;
+}
+.reactIcons {
+    display: flex;
+    padding: 0;
+    padding-top: 0.5rem;
+    align-items: center;
+    font-weight: 100;
+    gap: 1rem;
+}
+.reactIcons h1 {
+    padding: 0 1.2rem;
+}
+.skeleton {
+    width: 60%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin: 5rem auto;
+}
